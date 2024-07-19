@@ -11,6 +11,7 @@ ii. Always check from which account you are pushing your codes, check it using c
     git config user.email
     git config user.name
 
+
 ## Create a new repository on the command line
 If you want to push those changes in your desired github repository, follow these simple steps below:
 (& make changes in the codebase)
@@ -37,8 +38,11 @@ f. now push the staged file to the repository
     (Note: you need to write the whole command for once. 
     Later on pushing to the same repository you don't need to do that. You can acheive the same using command --> git push)
 
+
 ## or push an existing repository from the command line
+
 The steps are pretty much similar as above, for explanation refer above :-
+
 a. --> git remote add origin https://github.com/SarthakSrivastava-Dev/React-Development.git
 
 b. --> git branch -M main
