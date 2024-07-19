@@ -1,0 +1,37 @@
+Some key points to remember
+
+## How to configure GitHub in your terminal:-
+
+i. Configure your account in the terminal 
+
+    git config --global user.email "username@email.com"
+    git config --global user.name "GitHubUsername"
+
+ii. Always check from which account you are pushing your codes, check it using command
+    git config user.email
+    git config user.name
+
+1. if you want to push those changes in your desired github repository, follow these simple steps below:
+2. make changes in the codebase
+
+a. initialize your directory with git
+    --> git init
+
+b. stage the file(s) you want to push
+    --> git add fileName.exe
+
+c. commit those changes
+    --> git commit -m "write some comment here"
+
+d. go to your branch/ switch to your specified branch
+    --> git branch -M main
+    (here branch is 'main')
+
+e. add repository as the remote origin you are pusing to, i.e., target repository URL
+    --> git remote add origin https://github.com/GitHubUserName/RepositoryName.git
+    (here you use your own target GitHub URL)
+
+f. now push the staged file to the repository
+    --> git push -u origin main
+    (Note: you need to write the whole command for once. 
+    Later on pushing to the same repository you don't need to do that. You can acheive the same using command --> git push)
