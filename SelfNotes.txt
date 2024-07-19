@@ -1,6 +1,6 @@
-Some key points to remember
+Some key points to remember--
 
-## How to configure GitHub in your terminal:-
+## How to configure GitHub in your terminal :-
 
 i. Configure your account in the terminal 
 
@@ -11,8 +11,9 @@ ii. Always check from which account you are pushing your codes, check it using c
     git config user.email
     git config user.name
 
-1. if you want to push those changes in your desired github repository, follow these simple steps below:
-2. make changes in the codebase
+## Create a new repository on the command line
+If you want to push those changes in your desired github repository, follow these simple steps below:
+(& make changes in the codebase)
 
 a. initialize your directory with git
     --> git init
@@ -35,3 +36,11 @@ f. now push the staged file to the repository
     --> git push -u origin main
     (Note: you need to write the whole command for once. 
     Later on pushing to the same repository you don't need to do that. You can acheive the same using command --> git push)
+
+## or push an existing repository from the command line
+The steps are pretty much similar as above, for explanation refer above :-
+a. --> git remote add origin https://github.com/SarthakSrivastava-Dev/React-Development.git
+
+b. --> git branch -M main
+
+c. --> git push -u origin main
